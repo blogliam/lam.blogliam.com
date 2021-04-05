@@ -1,3 +1,5 @@
 url: "https://lam.blogliam.com/"
 baseurl: "/"
 title: "LAMLOG"
+exclude:
+    - launch.js
