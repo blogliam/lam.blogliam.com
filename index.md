@@ -19,7 +19,7 @@ ___
             plus: 1 |
             prepend: "000" |
             slice: -3, 3
-        }}
+        }} - {{ post.title }}
         </a>
     </p>
     <p class="info">{{ post.date | date: "%D" }} {{ post.time }}</p>
