@@ -1,7 +1,3 @@
 url: "https://lam.blogliam.com/"
 baseurl: "/"
 title: "LAMLOG"
-plugins:
-    - jekyll-admin
-exclude:
-    - launch.js
