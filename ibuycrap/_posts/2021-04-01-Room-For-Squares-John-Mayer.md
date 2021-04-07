@@ -4,7 +4,7 @@ tags: music
 format: CD
 rating: 5
 ---
-![Room For Squares](https://drive.google.com/uc?id=1PCzAqXN4LyiaHUup3eJObD6Mg-PwXP2_) 
+![Room For Squares](/assets/img/ibuycrap/roomforsquares.jpg) 
 <br>
 Review: [5/5] John Mayer's best album.  
 Notes: huge fucking scratch on the cd, fuck.

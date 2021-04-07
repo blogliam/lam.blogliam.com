@@ -4,7 +4,7 @@ tags: music
 format: Vinyl
 rating: 4
 ---
-![The Money Store](https://drive.google.com/uc?id=1PWHv541F3HZyjEMoJvQVy_N7SCbm0xD0) 
+![The Money Store](/assets/img/ibuycrap/themoneystore.jpg) 
 <br>
 Review: [4/5] Amazing tracks. Not as consistant as other Death Grips projects though.
 Notes: YUH!

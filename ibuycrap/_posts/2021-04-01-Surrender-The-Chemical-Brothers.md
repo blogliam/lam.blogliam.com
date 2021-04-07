@@ -4,6 +4,6 @@ tags: music
 format: CD
 rating: 3.5
 ---
-![Surrender](https://drive.google.com/uc?id=1PJ1zlm0YLDB-US4GxsgIrtufh3Z4p07A) 
+![Surrender](/assets/img/ibuycrap/surrender.jpg) 
 Review: [3.5/5] Enjoyable. Not my favorite Chemical Brothers project.
 Notes: Nice listening while driving on the 1. 
