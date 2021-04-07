@@ -10,7 +10,7 @@ permalink: /ibuycrap/
 
 <p id="description">
     My other blogs: <br>
-    <a href="https://lam.blogliam.com/">LAMLOG</a>   
+    <a href="/">LAMLOG</a>   
     
     </p>
 ___
