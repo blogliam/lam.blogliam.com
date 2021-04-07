@@ -1,0 +1,8 @@
+- name: Music Collection
+  url: https://lam.blogliam.com/ibuycrap/music/
+
+- name: Video Collection
+  url: https://lam.blogliam.com/ibuycrap/video/
+
+- name: Other
+  url: https://lam.blogliam.com/ibuycrap/other/

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta charset="utf-8">
+        <title>{{ site.title }} - {{ page.title }}</title>
+        <link rel="stylesheet" href="{{ "/assets/css/crap.css" | relative_url }}">
+    </head>
+      <body>
+        <div class="page">
+            <div id="header">
+                <div id="title">
+                    <a href="https://lam.blogliam.com/ibuycrap/">
+                        <img src="/assets/img/crap.png">
+                    </a>
+                </div>
+                
+        <div id="menu">
+                    <ul>
+                        {% for item in site.data.menucrap %}
+                        <li
+                            class="
+                                {% if forloop.last != true %}s{% endif %}
+                                {% if page.title == item.name %}selected{% endif %}"
+                            >
+                            <a href="{{ item.url }}">{{ item.name }}</a>
+                        </li>
+                        {% endfor %}                        
+                    </ul>
+                </div>
+            </div>
+            <br/>
+            <hr/>
+    
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
+    </body>
+</html>

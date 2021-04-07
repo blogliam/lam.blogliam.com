@@ -1,8 +1,9 @@
 - name: Portfolio
-  url: /portfolio
+  url: https://lukeamakinson.com/portfolio
 
 - name: About
-  url: /about
+  url: https://lukeamakinson.com/about
   
 - name: Contact
-  url: /contact
+  url: https://lukeamakinson.com/contact
+
