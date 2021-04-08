@@ -1,3 +1,5 @@
 title: LAMLOG
-exclude:
-  - .gitignore
+url: https://lam.blogliam.com/
+author: Luke A. Makinson
+exclude: [ .gitignore ]
+plugins: [ jekyll-feed ]
