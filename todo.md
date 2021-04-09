@@ -23,3 +23,5 @@ HARD
 5. Create plan for implementing lamlog visuals
 6. Create plan for implementing ibuycrap visuals
 7. Create plan for implementing yardsale visuals
+8. like button integration
+9. comment section integration
