@@ -1,0 +1,8 @@
+<div class="embed embed-{{ include.source | default: "youtube" }}">
+    {% include
+        tools/embeds/{{ include.source | default: "youtube" }}.html
+        id=include.id
+        height=include.height
+        width=include.width
+    %}
+</div>

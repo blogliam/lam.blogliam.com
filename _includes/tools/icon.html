@@ -1,0 +1,10 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="{{ include.width | default: 32 }}"
+    height="{{ include.height | default: include.width }}"
+    fill="{{ include.color | default: "currentColor" }}"
+    class="bi bi-{{ include.icon | default: "discord" }}"
+    viewBox="0 0 16 16">
+
+    {% include tools/icons/{{ include.icon | default: "discord" }}.path %}
+</svg>
