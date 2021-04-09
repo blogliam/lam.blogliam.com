@@ -25,3 +25,4 @@ HARD
 7. Create plan for implementing yardsale visuals
 8. like button integration
 9. comment section integration
+10. social media buttons
