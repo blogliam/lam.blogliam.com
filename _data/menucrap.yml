@@ -1,7 +1,7 @@
-- name: Music Collection
+- name: Music
   url: /ibuycrap/music/
 
-- name: Video Collection
+- name: Video
   url: /ibuycrap/video/
 
 - name: Other
