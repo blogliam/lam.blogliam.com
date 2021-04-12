@@ -1,13 +1,13 @@
 SIMPLE
-1. Make Video Collection Posts
-2. Make Other Posts
+1. Make Other Posts
 
 MEDIUM
 1. Add link back to blogliam in ibuycrap (and eventually yardsale)
 2. Agregate other metadata into other analytics beyound money spent:
     - Porportion of media in different formats
     - [Write more analytics ideas]
-3. Make intiial yardsale logo design
+3. Add appropriate analytics to each collection page
+4. Make intiial yardsale logo design
 4. Write yardsale layout file
 5. Write yardsale .yml menu file
 6. Make posts folder for yardsale
