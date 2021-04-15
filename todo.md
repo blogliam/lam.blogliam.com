@@ -1,5 +1,3 @@
-SIMPLE
-1. Make Other Posts
 
 MEDIUM
 1. Add link back to blogliam in ibuycrap (and eventually yardsale)
