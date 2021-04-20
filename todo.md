@@ -1,17 +1,16 @@
 
 MEDIUM
-1. Add link back to blogliam in ibuycrap (and eventually yardsale)
-2. Agregate other metadata into other analytics beyound money spent:
-    - Porportion of media in different formats
+1. Add link back to blogliam in ibuycrap
+2. Aggregate other metadata into other analytics beyond money spent:
+    - Proportion of media in different formats
     - [Write more analytics ideas]
 3. Add appropriate analytics to each collection page
-4. Make intiial yardsale logo design
+4. Make initial yardsale logo design
 4. Write yardsale layout file
 5. Write yardsale .yml menu file
 6. Make posts folder for yardsale
 7. Write Initial markdown webpage file for yardsale
-8. Make favicons for each blog and figure out how to have them render on each individual blog
-9. Create link back to blogliam.com home page from each blog
+8. Make favicon for each blog and figure out how to have them render on each individual blog
 
 HARD
 1. Write post randomization if/for statements for yardsale posts
