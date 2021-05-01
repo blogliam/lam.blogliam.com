@@ -5,5 +5,5 @@ tags: other
 format: pennant
 ---
 ![oaklandas](/assets/img/ibuycrap/oaklandas.jpg) 
-<br>
+
 Notes: Incredibly Dirty. Also the A's lost that year lol.
