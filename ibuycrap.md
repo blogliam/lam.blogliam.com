@@ -12,14 +12,50 @@ permalink: /ibuycrap/
     My other blogs: <br>
     <a href="/">LAMLOG</a>   
     
-    </p>
+</p> 
 ___
-<br>
+
+<p id="description">
+    Analytics: 
+    
+</p> 
+
+<p id="description">
 {% assign sum = 0 %}{% for post in site.categories.ibuycrap %}
     {% assign sum = sum | plus: post.price %}
 {% endfor %}
 [Total Money Wasted: ${{ sum }}]
+<!--Working-->
 
+{% assign sum = post.price %}{% for post in site.categories.ibuycrap %}
+    {% assign sum = post.price | plus: 11 %}
+{% endfor %}
+[Avg. Price Per Item: ${{ sum }}]     
+<!--Not working, need to integrate division -->
+
+{% assign sum = 0 %}{% for post in site.categories.ibuycrap %}
+    {% assign sum = sum | plus: post.rating %}
+{% endfor %}
+[Avg. Video Rating: {{ sum }}/5]  
+<!--Not working, need to integrate video tag and division -->
+
+{% for post in site.categories.ibuycrap %}
+    {% assign avgmuisc = sum | plus: post.rating %}
+{% endfor %}
+[Avg. Music Rating: {{ sum }}/5]  
+<!--Not working, need to integrate music tag and division -->
+
+{% assign sum = 0 %}{% for post in site.categories.ibuycrap %}
+    {% assign sum = sum | plus: 1 %}
+{% endfor %}
+[Total Items: {{ sum }}]  
+<!--Working-->
+
+</p>
+
+<br>
+
+___
 
 {% for post in site.categories.ibuycrap %}
 <div class="lamlog">
