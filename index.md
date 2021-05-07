@@ -8,7 +8,8 @@ title: Home
 </p>
 <p id="description">
     My other blogs: <br>
-    <a href="/ibuycrap/">ibuycrap</a>
+    <a href="/ibuycrap/">ibuycrap</a> <br>
+    <a href="/boardwalk/">boardwalk</a>
 </p>
 ___
 
