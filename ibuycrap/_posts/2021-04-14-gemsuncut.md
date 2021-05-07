@@ -5,5 +5,5 @@ tags: other
 format: zine
 ---
 ![gemsuncut](/assets/img/ibuycrap/gemsuncut.jpg) 
-<br>
+
 Notes: Came with a double sided poster. Amazing design overall. So fucking big lmao.

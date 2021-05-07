@@ -6,6 +6,6 @@ format: Vinyl
 rating: 3.5
 ---
 ![The Money Store](/assets/img/ibuycrap/blackmass.jpg) 
-<br>
+
 Review: [3.5/5] Interesting exploration of satanic aesthetics  
 Notes: Mort Garson album under the alias "Lucifer"

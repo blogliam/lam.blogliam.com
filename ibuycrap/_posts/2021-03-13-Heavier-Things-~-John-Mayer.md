@@ -5,6 +5,6 @@ format: CD
 rating: 2
 ---
 ![Heavier Things](/assets/img/ibuycrap/heavierthings.jpg) 
-<br>
+
 Review: [2/5] John Mayer's worst album.     
 Notes: Cool inside cd booklet artwork though.

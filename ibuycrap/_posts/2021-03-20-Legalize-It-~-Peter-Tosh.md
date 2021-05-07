@@ -5,6 +5,6 @@ format: CD
 rating: 3
 ---
 ![Legalize It](/assets/img/ibuycrap/legalizeit.jpg) 
-<br>
+
 Review: [3/5] Very Listenable.   
 Notes: No cd player in the car, play it on spotify while you look at the cd case.

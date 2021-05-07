@@ -6,6 +6,6 @@ format: Vinyl
 rating: 4
 ---
 ![The Money Store](/assets/img/ibuycrap/patchcord.jpg) 
-<br>
+
 Review: [4/5] Great Compilation.   
 Notes: Amazing color and texture on sleeve. Comes with awesome poster.
