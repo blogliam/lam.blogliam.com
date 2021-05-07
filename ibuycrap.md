@@ -27,24 +27,6 @@ ___
 [Total Money Wasted: ${{ sum }}]
 <!--Working-->
 
-{% assign sum = post.price %}{% for post in site.categories.ibuycrap %}
-    {% assign sum = post.price | plus: 11 %}
-{% endfor %}
-[Avg. Price Per Item: ${{ sum }}]     
-<!--Not working, need to integrate division -->
-
-{% assign sum = 0 %}{% for post in site.categories.ibuycrap %}
-    {% assign sum = sum | plus: post.rating %}
-{% endfor %}
-[Avg. Video Rating: {{ sum }}/5]  
-<!--Not working, need to integrate video tag and division -->
-
-{% for post in site.categories.ibuycrap %}
-    {% assign avgmuisc = sum | plus: post.rating %}
-{% endfor %}
-[Avg. Music Rating: {{ sum }}/5]  
-<!--Not working, need to integrate music tag and division -->
-
 {% assign sum = 0 %}{% for post in site.categories.ibuycrap %}
     {% assign sum = sum | plus: 1 %}
 {% endfor %}

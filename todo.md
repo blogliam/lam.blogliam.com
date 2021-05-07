@@ -1,6 +1,5 @@
 
 MEDIUM
-1. Add link back to blogliam in ibuycrap
 2. Aggregate other metadata into other analytics beyond money spent:
     - Proportion of media in different formats
     - [Write more analytics ideas]
