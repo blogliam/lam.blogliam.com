@@ -30,26 +30,23 @@ ___
 <!--Working-->
 <br>
 <br>
-{% assign sum = 0 %}
+{% assign sum = 0.0 %}
 {% for post in site.tags.music %}
     {% assign sum = sum | plus: 1 %}
 {% endfor %}
-[Music: {{ sum }}]  
-<!--Need to get it to output percentage [tag post/overall post * 100]-->
+[Music: {{ sum | divided_by: site.categories.ibuycrap.size | times: 100 | truncate: 4, "" }}%]  
 
-{% assign sum = 0 %}
+{% assign sum = 0.0 %}
 {% for post in site.tags.video %}
     {% assign sum = sum | plus: 1 %}
 {% endfor %}
-[Video: {{ sum }}]  
-<!--Need to get it to output percentage [tag post/overall post * 100]-->
+[Video: {{ sum | divided_by: site.categories.ibuycrap.size | times: 100 | truncate: 4, ""  }}%]  
 
-{% assign sum = 0 %}
+{% assign sum = 0.0 %}
 {% for post in site.tags.other %}
     {% assign sum = sum | plus: 1 %}
 {% endfor %}
-[Other: {{ sum }}]  
-<!--Need to get it to output percentage [tag post/overall post * 100]-->
+[Other: {{ sum | divided_by: site.categories.ibuycrap.size | times: 100 | truncate: 4, ""  }}%]  
 <br>
 <br>
 {% assign sum = 0 %}
@@ -57,7 +54,6 @@ ___
     {% assign sum = sum | plus: 1 %}
 {% endfor %}
 [Total Items: {{ sum }}]  
-<!--Working-->
 
 </p>
 

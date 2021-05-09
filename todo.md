@@ -1,13 +1,8 @@
 
 MEDIUM
-2. Aggregate other metadata into other analytics beyond money spent:
-    - Proportion of media in different formats
-    - [Write more analytics ideas]
-3. Add appropriate analytics to each collection page
 4. Make initial yardsale logo design
 4. Write yardsale layout file
 5. Write yardsale .yml menu file
-6. Make posts folder for yardsale
 7. Write Initial markdown webpage file for yardsale
 8. Make favicon for each blog and figure out how to have them render on each individual blog
 
