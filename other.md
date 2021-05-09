@@ -10,18 +10,19 @@ permalink: /ibuycrap/other/
 </p> 
 
 <p id="description">
-{% assign sum = 0 %}{% for post in site.tags.other %}
-    {% assign sum = sum | plus: 1 %}
-{% endfor %}
-[Total Items: {{ sum }}]  
-<!--Working-->
 
 {% assign sum = 0 %}{% for post in site.tags.other %}
     {% assign sum = sum | plus: post.price %}
 {% endfor %}
 [Total Money Wasted: ${{ sum }}]
 <!--Working-->
-
+<br>
+<br>
+{% assign sum = 0 %}{% for post in site.tags.other %}
+    {% assign sum = sum | plus: 1 %}
+{% endfor %}
+[Total Items: {{ sum }}]  
+<!--Working-->
 </p>
 
 ___
