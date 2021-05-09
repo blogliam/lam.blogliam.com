@@ -41,7 +41,7 @@ permalink: /ibuycrap/music/
     {% endif %}
 {% endfor %}
 [Total Vinyls: {{ sum }}]  
-<!--Working-->
+<!--Workiwng-->
 <br>
 <br>
 {% assign sum = 0 %}

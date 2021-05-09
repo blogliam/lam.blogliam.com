@@ -22,21 +22,44 @@ ___
 </p> 
 
 <p id="description">
-{% assign sum = 0 %}{% for post in site.categories.ibuycrap %}
+{% assign sum = 0 %}
+{% for post in site.categories.ibuycrap %}
     {% assign sum = sum | plus: post.price %}
 {% endfor %}
 [Total Money Wasted: ${{ sum }}]
 <!--Working-->
+<br>
+<br>
+{% assign sum = 0 %}
+{% for post in site.tags.music %}
+    {% assign sum = sum | plus: 1 %}
+{% endfor %}
+[Music: {{ sum }}]  
+<!--Need to get it to output percentage [tag post/overall post * 100]-->
 
-{% assign sum = 0 %}{% for post in site.categories.ibuycrap %}
+{% assign sum = 0 %}
+{% for post in site.tags.video %}
+    {% assign sum = sum | plus: 1 %}
+{% endfor %}
+[Video: {{ sum }}]  
+<!--Need to get it to output percentage [tag post/overall post * 100]-->
+
+{% assign sum = 0 %}
+{% for post in site.tags.other %}
+    {% assign sum = sum | plus: 1 %}
+{% endfor %}
+[Other: {{ sum }}]  
+<!--Need to get it to output percentage [tag post/overall post * 100]-->
+<br>
+<br>
+{% assign sum = 0 %}
+{% for post in site.categories.ibuycrap %}
     {% assign sum = sum | plus: 1 %}
 {% endfor %}
 [Total Items: {{ sum }}]  
 <!--Working-->
 
 </p>
-
-<br>
 
 ___
 

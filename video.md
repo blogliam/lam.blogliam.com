@@ -23,7 +23,7 @@ permalink: /ibuycrap/video/
     {% assign sum = sum | plus: 1 %}
 {% endfor %}
 [Total Items: {{ sum }}]  
-<!--Working-->
+<!--Workin2g-->
 <br>
 {% assign sum = 0 %}
 {% for post in site.tags.video %}

@@ -22,7 +22,7 @@ permalink: /ibuycrap/other/
     {% assign sum = sum | plus: 1 %}
 {% endfor %}
 [Total Items: {{ sum }}]  
-<!--Working-->
+<!--Workwing-->
 </p>
 
 ___
