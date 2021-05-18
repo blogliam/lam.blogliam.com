@@ -17,3 +17,4 @@ HARD
 8. like button integration
 9. comment section integration
 10. social media buttons
+11. automatic twitter posts when new blog post is made 
